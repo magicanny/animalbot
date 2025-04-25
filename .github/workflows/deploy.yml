@@ -25,4 +25,3 @@ jobs:
             sudo docker container rm animalbot || true
             sudo docker build -t animalbot .
             sudo docker run -d --name animalbot animalbot
-
